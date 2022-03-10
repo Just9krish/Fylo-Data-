@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/Just9krish/Fylo-Data-)
-- Live Site URL: [Click here](https://testimonials-grid-preview-by-just9krish.netlify.app/)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/fylo-data-storage-by-just9krish-fr1_a8i1A)
+- Live Site URL: [Click here](https://fylo-data-storage-by-just9krish.netlify.app/)
 
 ## My process
 
