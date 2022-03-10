@@ -110,6 +110,7 @@ main {
   animation: bar 1.5s;
 }
 
+/* Animation */
 @keyframes bar {
   from {
     width: 0%;
@@ -118,6 +119,8 @@ main {
     width: 81.5%;
   }
 }
+
+/* Animation end */
 
 .meter > span::after {
   content: "";

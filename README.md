@@ -12,7 +12,6 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
   - [Author](#author)
 
 
@@ -40,44 +39,50 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid
+- CSS Animation
 
 
 ### What I learned
 
-I learned how to use it to create a responsive grid layout. I am definitely gonna use it again in the future
+I learned how to use it to create a animation. I am definitely gonna use it again in the future.
 
 
 
 ```css
-.small-1 {
-    grid-area: 1 / 3 / span 1 / span 1;
-  }
+.right-container .meter > span {
+  display: block;
+  background-image: linear-gradient(
+    to right,
+    var(--Gradient1),
+    var(--Gradient2)
+  );
+  width: 80%;
+  height: 100%;
+  position: relative;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  animation: bar 1.5s;
+}
 
-  .small-2 {
-    grid-area: 2 / 1 / span 1 / span 1;
+/* Animation */
+@keyframes bar {
+  from {
+    width: 0%;
   }
+  to {
+    width: 81.5%;
+  }
+}
+/* Animation end */
 
-  .wide-1 {
-    grid-area: 1 / 1 / span 1 / span 2;
-  }
-  .wide-2 {
-    grid-area: 2 / 2 / span 1 / span 2;
-  }
-  .long {
-    grid-area: 1 / 4 / span 2 / span 1;
-  }
 ```
 
 
 ### Continued development
 
-I will continue to learn more about CSS Grid and how it can be used to create a more complex layout.
-### Useful resources
-
-- [Traversy Media](https://www.youtube.com/watch?v=0xMQfnTU6oo) - This video helped me a lot and it's a great video on CSS Grid.
-- [W3school](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-area) - This content help me alot
-
+I will continue to learn more about CSS Animation and how it can be used to create a more complex Animation.
 
 ## Author
 
