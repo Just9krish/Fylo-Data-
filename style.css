@@ -166,7 +166,7 @@ main {
 /* Media Quries */
 
 @media screen and (min-width: 958px) {
-  body {
+  main {
     background-image: url(./images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position: top 350px left 0px;
